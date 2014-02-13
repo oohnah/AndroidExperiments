@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shakepearean/Shakepearean.iml" filepath="$PROJECT_DIR$/Shakepearean/Shakepearean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShakespeareanInsults.iml" filepath="$PROJECT_DIR$/ShakespeareanInsults.iml" />
+    </modules>
+  </component>
+</project>
+

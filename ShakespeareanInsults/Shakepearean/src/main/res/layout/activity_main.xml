@@ -1,0 +1,55 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thou art a(n):"
+        android:id="@+id/textView"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Insult"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="send_Message"
+        android:layout_marginBottom="100dp"
+        android:focusable="false"
+        android:background="#a1d7dd"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="base-court"
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="applejohn"
+        android:id="@+id/textView4"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Artless"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp" />
+</FrameLayout>
